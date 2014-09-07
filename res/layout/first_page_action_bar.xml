@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/refresh_orgs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@color/light_blue"
+        android:src="@drawable/ic_action_refresh" />
+
+    <ImageButton
+        android:id="@+id/search_orgs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:src="@drawable/ic_action_search" />
+    
+    <ImageButton
+        android:id="@+id/add_orgs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:src="@drawable/ic_action_new" />
+
+</LinearLayout>

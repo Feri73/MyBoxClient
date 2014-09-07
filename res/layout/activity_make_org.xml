@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mybox.MakeOrgActivity" >
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context="com.example.mybox.MakeOrgActivity" >
+
+        <Button
+            android:id="@+id/new_org_image_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_file" />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/new_org_image_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/new_org_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="@string/name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/new_org_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="@string/content"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/new_org_typ_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/org_reg_types" />
+    
+    <Button
+            android:id="@+id/new_org_file_chooser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_file" />
+
+    <Button
+        android:id="@+id/create_org_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_org" />
+
+</LinearLayout>

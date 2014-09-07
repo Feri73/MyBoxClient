@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="org_reg_types">
+        <item>عمومی</item>
+        <item>نیازمند تایید</item>
+        <item>ثبت نام با فایل</item>
+    </string-array>
+
+    <string name="enroll_ok_message">شما به عضویت این گروه درآمدید</string>
+    <string name="request_sentence"> درخواست عضویت داده است</string>
+    <string name="no_notification_message">هیچ پیام جدیدی وجود ندارد</string>
+    <string name="accept">موافقم</string>
+    <string name="reject">مخالفم</string>
+    <string name="next">بعدی</string>
+    <string name="last">قبلی</string>
+    <string name="expand_question_result">مشاهده نتایج</string>
+    <string name="person_unit">نفر</string>
+    <string name="vote">رای دهید</string>
+    <string name="invalid_request_message">درخواست نامعتبر!</string>
+    <string name="no_picker_message">متاسفانه دستگاه شما از این قابلیت پشتیبانی نمیکند</string>
+    <string name="create_org">ساخت سازمان</string>
+    <string name="name">نام</string>
+    <string name="content">توضیحات</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="save_survey">ساخت نظرسنجی</string>
+    <string name="option_text">متن گزیته</string>
+    <string name="question_text">متن سوال</string>
+    <string name="survey_text">موضوع نظرسنجی</string>
+    <string name="succesfull_suggestion">پیشنهاد شما با موفقیت ثبت شد</string>
+    <string name="make_suggestion_text">بفرست</string>
+    <string name="app_name">MyBox</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">ورود</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="suggestion_hint">پیشنهاد کنید...</string>
+    <string name="sign_in">ورود</string>
+    <string name="sign_up">ثبت نام</string>
+    <string name="connecting_message">در حال اتصال</string>
+    <string name="connection_failed_mesage">ارتباط با سرور برقرار نشد!</string>
+    <string name="duplicate_user_message">نام کاربری تکراری!</string>
+    <string name="empty_fields_message">تمام فیلـد ها را پر کن!</string>
+    <string name="user_pass_mismatch">نام کاربری یا رمز عبور اشتباه!</string>
+    <string name="not_logged_in_message">مشکلی به وجود آمده! دوباره تلاش کنید</string>
+    <string name="authentication_error">مشکلی به وجود آمده! دوباره تلاش کنید</string>
+    <string name="enrollment_key">کلید ورود</string>
+    <string name="enroll">ثبت نام</string>
+    <string name="waitForAccept">درخواست ثبت نام شما برای مدیر گروه فرستاده شد</string>
+    <string name="key_pass_mismatch">کلید وارد شده یا رمز عبور اشتباه</string>
+    <string name="no_id_found_message">مشکلی به وجود آمده! دوباره تلاش کنید</string>
+    <string name="has_sent_request">قبلا درخواست فرستاده شده</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_first_page">FirstPageActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_seach">SeachActivity</string>
+    <string name="title_activity_enroll_org">EnrollOrgActivity</string>
+    <string name="title_activity_organiation_page">OrganiationPageActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_organization_page">OrganizationPageActivity</string>
+    <string name="title_activity_question_page">QuestionPageActivity</string>
+    <string name="title_activity_make_suggestion">MakeSuggestionActivity</string>
+    <string name="title_activity_tttt">TTTTActivity</string>
+    <string name="title_activity_make_survey">MakeSurveyActivity</string>
+    <string name="title_activity_make_org">MakeOrgActivity</string>
+    <string name="title_activity_question_result_page">QuestionResultPageActivity</string>
+
+</resources>

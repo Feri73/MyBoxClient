@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!--
+     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+-->
+    <EditText
+        android:id="@+id/new_survey_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/survey_text" />
+
+    <Button
+        android:id="@+id/save_survey_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_survey" />
+
+    <ExpandableListView
+        android:id="@+id/new_survey_question_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ExpandableListView>
+
+</LinearLayout><!-- </ScrollView> -->
+<!-- </LinearLayout> -->
